@@ -48,7 +48,7 @@ Javascript logic to handle the 'change' and 'mousemouse' event triggered on the 
 
 ```
 function update(){
-    // here dataset is coming from html and sizing property is used as input is given attribut data-sizing='px'
+    // here dataset is coming from html and sizing property is used as input is given attribute data-sizing='px'
     const suffix=this.dataset.sizing || '';
     document.documentElement.style.setProperty(`--${this.name}`,this.value+suffix)
 }
