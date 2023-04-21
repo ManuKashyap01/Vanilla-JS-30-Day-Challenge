@@ -38,10 +38,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - JavaScript
-- CSS custom properties
-- Flexbox
-- CSS variable
-
 
 ### What I learned
 
