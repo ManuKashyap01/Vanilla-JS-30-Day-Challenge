@@ -1,6 +1,6 @@
-# Vanilla Js 30 Day Challenge - Day 2 CSS + JavaScript Clock Challenge
+# Vanilla Js 30 Day Challenge - Day 5 Flex panel image gallery Challenge
 
-This is a solution to the Javascript Drum kit challenge.
+This is a solution to the Flex panel image gallery challenge.
 
 ## Table of contents
 
