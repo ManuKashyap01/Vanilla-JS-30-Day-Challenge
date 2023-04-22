@@ -1,6 +1,6 @@
-# Vanilla Js 30 Day Challenge - Day 2 CSS + JavaScript Clock Challenge
+# Vanilla Js 30 Day Challenge - Day 4 Working with array methods in JavaScript Challenge
 
-This is a solution to the Javascript Drum kit challenge.
+This is a solution to the Working with array methods in JavaScript challenge.
 
 ## Table of contents
 
