@@ -1,5 +1,8 @@
 html {
-  background-color: rgb(255, 200, 0);
+  background: #636363;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-size: 20px;
   box-sizing: border-box;
 }
@@ -25,7 +28,7 @@ body {
   z-index: 2;
   background-color: aliceblue;
   border: 10px solid rgba(200, 202, 202, 0.74);
-  color: rgba(34, 37, 37, 0.74);
+  color: #636363;
   border-radius: 5px;
   font-size: 1.5rem;
   text-align: center;
@@ -54,7 +57,7 @@ li:nth-child(even) {
   transform: perspective(100px) rotateY(3deg) translateX(15px);
 }
 .hl {
-  background-color: rgb(255, 200, 0);
+  background-color: #a2ab58;
 }
 span.pop {
   font-size: 0.9rem;
