@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+      }
+      #canvas {
+        border: 5px solid lightslategray;
+      }
+      .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      img {
+        max-width: 26px;
+        max-height: 26px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Hello</h1> -->
+    <canvas id="canvas" width="800px" height="800px"></canvas>
+    <div class="icons">
+      <button class="brush"><img src="./brush.ico" /></button>
+      <button class="erase"><img src="./eraser.ico" /></button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
