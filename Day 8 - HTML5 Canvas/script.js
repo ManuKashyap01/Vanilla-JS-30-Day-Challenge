@@ -10,14 +10,16 @@ ctx.lineCap='round';
 let lastX=0;
 let lastY=0;
 let isDrawing=false;
-isRemove=false;
+let isRemove=false;
 ctx.lineWidth=10;
 let isInc=true;
 let hue=0;
 function Draw(e){
     if(!isDrawing) return;
     ctx.strokeStyle=`hsl(${hue},100%,50%)`
-    if(isRemove) ctx.strokeStyle='#fff'
+    if(isRemove) {
+        ctx.strokeStyle='#fff'
+    }
     ctx.beginPath();
     ctx.moveTo(lastX,lastY);
     ctx.lineTo(e.offsetX,e.offsetY);
@@ -27,7 +29,8 @@ function Draw(e){
     if(ctx.lineWidth>=75 || ctx.lineWidth<=1){
         isInc=!isInc;
     }
-    if(isInc) ctx.lineWidth++;
+    if(isRemove) ctx.lineWidth=50
+    else if(isInc) ctx.lineWidth++;
     else ctx.lineWidth--;
 }
 brush.addEventListener('click',()=>{
