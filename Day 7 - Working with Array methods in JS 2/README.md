@@ -1,4 +1,4 @@
-# Vanilla Js 30 Day Challenge - Day 7 working with array methos 2 Challenge
+# Vanilla Js 30 Day Challenge - Day 7 working with array methods 2 Challenge
 
 This is a solution to the Javascript - working with array methods 2 challenge.
 
